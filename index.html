@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700&family=Poppins:wght@400;600;700&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>
+        Mentoria
+      </h1>
+      <p>
+        Preencha o formulário abaixo para <br>
+         agendar a sua mentoria
+      </p>
+    </header>
+    <form action="">
+      <fieldset id="box">
+        <div class="fieldset-wrapper">
+          <legend>
+            Informações pessoais
+          </legend>
+          <div class="input-wrapper">
+            <div class="cxnome">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome">
+            </div>
+            <div class="cxnome">
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" id="sobrenome">
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset id="col">
+        <div class="input-col">
+          <label for="email">Email <span>(digite um email válido)</span></label>
+          <input type="email">
+        </div>
+        <div class="input-col">
+          <label for="senha">Senha <span>(mínimo de 6 caracteres)</span></label>
+          <input type="senha">
+        </div>
+      </fieldset>
+      <fieldset id="mentor">
+        <div class="box-info">
+          <legend>
+            Informações do mentor
+          </legend>  
+        </div>
+        <div class="input-col">
+          <label for="nome-mentor">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+          <input type="nome-mentor">
+        </div>
+      </fieldset>
+
+      <fieldset id="hora">
+        <div class="hora-reserva">
+          <legend id="reserva">
+            Seus horários disponíveis
+          </legend>
+
+        </div>
+
+      </fieldset>
+      <fieldset class="data-inicio">
+        <legend>Primeira mentoria</legend>
+        <div class="datarow">
+          <div class="row2">
+            <label for="data">Data</label>
+            <input type="date" id="data">
+          </div>
+          <div class="row2">
+            <label for="inicio">Das</label>
+            <input type="time" id="inicio">
+          </div>
+          <div class="row2">
+            <label for="fim">Até</label>
+            <input type="time" id="fim">
+          </div>
+        </div>
+        
+      </fieldset>
+    </form>
+    <footer>
+      <button>
+        Salvar
+      </button>
+    </footer>
+  </div>
+</body>
+</html>
